@@ -118,7 +118,7 @@ digitalocean vps的网卡支持rsc和gso高级算法，所以可以开启rsc="1"
 
 当我打开youtube，HD 高清1080p视频时， `飕`了一下，丝丝润滑，那种兴奋感觉，你懂的！
 
-如果你需要  搭建的，点击这里，你我都有优惠赠送10美金。
+如果你需要DigitalOcean 搭建的，点击这里[https://www.digitalocean.com/](https://m.do.co/c/bb9498bee200)，你我都有优惠赠送10美金。
 
 OK!
 
