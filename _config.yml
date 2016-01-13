@@ -5,8 +5,8 @@
 # baseurl: ""
 url: http://hutsonlu.github.io
 #baseurl: /jekyll-qck-theme
-title: Your name
-description: Some descriptions of yourself.
+title: Hutson's blog
+description: Some blogs of my programming learning summary and thoughts.
 avatar: /assets/img/ogp.png
 # language: ja
 language: en
@@ -17,9 +17,9 @@ language: en
 icons:
   rss: true
   email:
-  github: qckanemoto
+  github: hutsonlu
   bitbucket:
-  twitter: qckanemoto
+  twitter: hutsonlu
   facebook:
   google_plus:
   tumblr:
