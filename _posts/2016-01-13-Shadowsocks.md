@@ -85,7 +85,9 @@ shadowsocks 项目 Github 主页在[这里](https://github.com/shadowsocks)。
 
 然后确定自己的内核是否在锐速的支持列表里，如果不在，请先更换内核，如果不确定，请使用 手动安装。[网址](http://my.serverspeeder.com/w.do?m=lsl)
 
-确定自己的内核版本在支持列表里，我用的是 `Ubuntu 14.04 x64 vmlinuz-3.13.0-45-generic`， 在DigitalOcean设置更改内核版本， 使用以下命令快速安装了。 
+确定自己的内核版本在支持列表里，我用的是 `Ubuntu 14.04 x64 vmlinuz-3.13.0-45-generic`， 在DigitalOcean设置更改内核版本，很容易的。
+
+然后，使用以下命令快速安装了： 
 
 
 ```
