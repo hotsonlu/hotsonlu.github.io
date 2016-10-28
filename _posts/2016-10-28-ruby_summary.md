@@ -17,6 +17,7 @@ tags:  Ruby
 - Globle varaible, Class variable  , Constant variable
 
     ? about shadowing :
+
     ```ruby
     a = 7
     array = [1, 2, 3]
@@ -184,6 +185,7 @@ my_obj = MyClass.new
 - 循环条件控制 loop condition control
 
     - break
+
       ```ruby
         x = 0
       while x <= 10
@@ -420,6 +422,7 @@ puts Greeting.hello('say hello')
 
 Proc, Lambda , 把块封装成对象： Proc对象， Lambda 对象 ，可以复用
 了解两者的差异？
+
   - Lambda 行为像 method，可以看着匿名函数。本身行为 如 method， 可以直接 return
   - Proc 行为像 block 。 要在方法里面 return
 
@@ -483,7 +486,7 @@ casecmp , upcase , downcase, capitalize , chomp, reverse , include? index, match
 
 ### Enumerable
 
-- search and filter | 搜索判断，及过滤
+- search and filter  搜索判断，及过滤
   - any? # 只要有一个条件满足，就返回 true
   - all? # 所有条件满足，返回 true
   - detect (alias - find) # 判断 block 传入所满足的条件，满足的话，返回第一元素。
@@ -509,10 +512,10 @@ casecmp , upcase , downcase, capitalize , chomp, reverse , include? index, match
   - reverse_each # 相对于 each， 反向 each 元素
 
 - iterate and create new collection 不但遍历，而且还生成新的 collection
-  - each_with_object # 接收两个元素，|element, result| 一个是遍历的元素，一个是结果 object
+  - each_with_object # 接收两个元素，`|element, result|` 一个是遍历的元素，一个是结果 object
   - flat_map # map 的升级版， 是相对于 nested 嵌套的 array，
   - map # 返回新的 collection
-  - inject # 类似于 each_with_object, 多用于计算和， 不过 前面为结果，后面为元素 |sum, element|
+  - inject # 类似于 each_with_object, 多用于计算和， 不过 前面为结果，后面为元素 `|sum, element|`
   - sort # 排序
   - zip # 对象的每个元素相应跟参数合并，对象的元素少于参数，省略配对参数，多于的话，以 nil 补充
 
