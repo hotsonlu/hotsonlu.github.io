@@ -79,6 +79,7 @@ my_obj = MyClass.new
 
 
 - unless .. end  (unless 就是 if not)
+
   ```ruby
   def reject
     kept_item = []
@@ -137,6 +138,7 @@ my_obj = MyClass.new
   ```
 
 - until
+
   ```ruby
   i = 0
   until i >= 10
@@ -178,6 +180,7 @@ my_obj = MyClass.new
   ```
 
 - 循环条件控制 loop condition control
+
     - break
       ```ruby
         x = 0
@@ -312,26 +315,28 @@ say("I'm fine")
     fido.a_public_method        # => Will this work? Yes, I'm protected!
     ```
 - 类可以扩展或子类化其他类
+
   ```ruby
   class 类名 < 父类名  
     类定义
   end
   ```
 - 类还可以包含模块（include)
-```ruby
-  module M
-    def method
-      "meth"
+
+  ```ruby
+    module M
+      def method
+        "meth"
+      end
     end
-  end
 
-  class C
-    include M # 包含 M 模块
-  end
+    class C
+      include M # 包含 M 模块
+    end
 
-  c = C.new
-  p c.meth  # => meth
-```
+    c = C.new
+    p c.meth  # => meth
+  ```
 
 ### 模块 module
 
