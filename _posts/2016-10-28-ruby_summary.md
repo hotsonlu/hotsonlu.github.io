@@ -11,6 +11,7 @@ tags:  Ruby
 ### 变量作用域 variable scope
 
 变量在不同上下文的环境，有不同的作用域：
+
 - Block: 在 block 里面的变量赋值，是可以访问到外面定义的变量。但是外面的变量赋值是不能访问里面的变量。
 - Method: method 里面的 local variable 跟外面的变量是看不到，不能共享，反过来也是。除非考虑这个 method 有改变 variable 的情况。
 - Globle varaible, Class variable  , Constant variable
