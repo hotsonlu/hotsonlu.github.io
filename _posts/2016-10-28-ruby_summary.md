@@ -11,6 +11,7 @@ tags:  Ruby
 ### 变量作用域 variable scope
 
 变量在不同上下文的环境，有不同的作用域：
+
 - Block: 在 block 里面的变量赋值，是可以访问到外面定义的变量。但是外面的变量赋值是不能访问里面的变量。
 - Method: method 里面的 local variable 跟外面的变量是看不到，不能共享，反过来也是。除非考虑这个 method 有改变 variable 的情况。
 - Globle varaible, Class variable  , Constant variable
@@ -56,7 +57,6 @@ my_obj = MyClass.new
 |  时间 |  Time |  |
 |  异常 |  Exception | StandardError (main) |
 
-### 最重要的对象类型： String , Array, Hash
 
 ### 条件判断 conditional statatment
 
@@ -79,6 +79,7 @@ my_obj = MyClass.new
 
 
 - unless .. end  (unless 就是 if not)
+
   ```ruby
   def reject
     kept_item = []
@@ -137,6 +138,7 @@ my_obj = MyClass.new
   ```
 
 - until
+
   ```ruby
   i = 0
   until i >= 10
@@ -159,6 +161,7 @@ my_obj = MyClass.new
   ```
 
 - for
+
   ```ruby
   for i in 1..10
     puts "#{i} : ruby"
@@ -166,6 +169,7 @@ my_obj = MyClass.new
   ```
 
 - times
+
   ```ruby
   10.times do |i|
     puts "#{i+1} : ruby. "
@@ -178,6 +182,7 @@ my_obj = MyClass.new
   ```
 
 - 循环条件控制 loop condition control
+
     - break
       ```ruby
         x = 0
@@ -312,26 +317,28 @@ say("I'm fine")
     fido.a_public_method        # => Will this work? Yes, I'm protected!
     ```
 - 类可以扩展或子类化其他类
+
   ```ruby
   class 类名 < 父类名  
     类定义
   end
   ```
 - 类还可以包含模块（include)
-```ruby
-  module M
-    def method
-      "meth"
+
+  ```ruby
+    module M
+      def method
+        "meth"
+      end
     end
-  end
 
-  class C
-    include M # 包含 M 模块
-  end
+    class C
+      include M # 包含 M 模块
+    end
 
-  c = C.new
-  p c.meth  # => meth
-```
+    c = C.new
+    p c.meth  # => meth
+  ```
 
 ### 模块 module
 
