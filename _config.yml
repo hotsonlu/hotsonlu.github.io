@@ -3,10 +3,10 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://hutsonlu.github.io
+url: http://hotsonlu.github.io
 #baseurl: /jekyll-qck-theme
-title: Hutson's blog
-description: My programming learning summary and thoughts.
+title: Hotson's blog
+description: My programming learning blog.
 avatar: /assets/img/ogp.png
 # language: ja
 language: en
@@ -17,9 +17,9 @@ language: en
 icons:
   rss: true
   email:
-  github: hutsonlu
+  github: hotsonlu
   bitbucket:
-  twitter: hutsonlu
+  twitter: hotson
   facebook:
   google_plus:
   tumblr:
