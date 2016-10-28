@@ -16,7 +16,7 @@ tags:  Ruby
 - Method: method 里面的 local variable 跟外面的变量是看不到，不能共享，反过来也是。除非考虑这个 method 有改变 variable 的情况。
 - Globle varaible, Class variable  , Constant variable
 
-    ? about shadowing :
+    `? about shadowing :`
 
     ```ruby
     a = 7
