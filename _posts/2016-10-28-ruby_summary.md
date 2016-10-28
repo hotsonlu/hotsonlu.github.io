@@ -56,7 +56,6 @@ my_obj = MyClass.new
 |  时间 |  Time |  |
 |  异常 |  Exception | StandardError (main) |
 
-### 最重要的对象类型： String , Array, Hash
 
 ### 条件判断 conditional statatment
 
@@ -161,6 +160,7 @@ my_obj = MyClass.new
   ```
 
 - for
+
   ```ruby
   for i in 1..10
     puts "#{i} : ruby"
@@ -168,6 +168,7 @@ my_obj = MyClass.new
   ```
 
 - times
+
   ```ruby
   10.times do |i|
     puts "#{i+1} : ruby. "
